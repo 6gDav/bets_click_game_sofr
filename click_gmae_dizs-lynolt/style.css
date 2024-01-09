@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Noto+Sans+Indic+Siyaq+Numbers&family=Noto+Sans+JP:wght@100;900&family=Noto+Serif+JP:wght@200&family=Pacifico&display=swap');
+* {
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Pacifico', cursive;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #3498db, #2c3e50);
+}
+
+h1 {
+  color: #ecf0f1;
+  font-size: 50px;
+}
+
+#outer-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.box {
+  background: #2ecc71;
+  color: #ecf0f1;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.box:hover {
+  background: #27ae60;
+}
+
+h2,
+div {
+  margin: 10px 0;
+  color: #ecf0f1;
+}
+button {
+  margin: 10px 0;
+  color: #1595b5;
+  font-size: 25px;
+  padding: 17px 37px;
+  border-radius: 20px;
+}
